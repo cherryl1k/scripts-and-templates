@@ -1,0 +1,1 @@
+FOR %%i IN (*.flac) DO ffmpeg -loop 1 -framerate 2 -i "cover.png" -i "%%i" -map 0:v -map 1:a -c:v h264_nvenc -pix_fmt yuv420p -preset p3 -qp 23 -vf "scale=-1:1080,pad=1920:ih:(ow-iw)/2" -c:a aac -b:a 256k -shortest -movflags +faststart "%%~ni.mp4"
