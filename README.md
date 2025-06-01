@@ -4,4 +4,4 @@ currently it only works with nvidia gpus supporting cuda but you can edit the sc
 
 ## templates/win32_build.ps1
 Generic build script to compile clang with win32 (Windows api) for C (configured for Windows desktop GUI apps)
-also has -clean and build directories
+also has a "-clean" argument and build directories
