@@ -1,4 +1,3 @@
-param($args)
 $ErrorActionPreference = "Stop"
 
 if ($args[0] -eq  "-clean") {
@@ -8,13 +7,13 @@ if ($args[0] -eq  "-clean") {
 
 $buildDir = "build"
 $output = Join-Path $buildDir "output.exe"
-$compiler = "clang"
+$compiler = "clang++"
 
-$sourceDirs = @("src", "src\gui", "src\backend")  # Add more directorys if needed
+$sourceDirs = @("src")  # Add more directorys if needed
 
-# Add together the .c files
+# Add together the .cpp files
 $sources = $sourceDirs | ForEach-Object {
-    Get-ChildItem -Recurse -Filter *.c -Path $_ | ForEach-Object { $_.FullName }
+    Get-ChildItem -Recurse -Filter *.cpp -Path $_ | ForEach-Object { $_.FullName }
 }
 
 if ($Clean) {
