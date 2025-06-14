@@ -10,6 +10,7 @@ The valid arguments are so:
 - -f (for .flac)
 - -3 (for .mp3)
 - -o (for .ogg)
+
 For the second argument it directs to the image (any format should work) to use for the .mp4 files.
 For example:
 ```powershell
