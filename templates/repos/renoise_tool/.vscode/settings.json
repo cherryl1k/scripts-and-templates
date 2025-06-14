@@ -1,0 +1,4 @@
+{
+    "Lua.workspace.library": ["definitions"],
+    "Lua.runtime.plugin": "ext/renoise-defs/plugin.lua",
+}

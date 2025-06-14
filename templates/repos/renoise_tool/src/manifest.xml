@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseScriptingTool doc_version="0">
+  <ApiVersion>6</ApiVersion>
+  <Id>com.example.xrnx</Id>
+  <Version>1</Version>
+  <Name>example</Name>
+  <Author>Author</Author>
+  <Category>Template</Category>
+  <Description>
+  Template manifest.xml for my scripts repo
+  </Description>
+  <Homepage>some sort of url</Homepage>
+  <Platform>Windows, Mac, Linux</Platform>
+</RenoiseScriptingTool>

@@ -1,0 +1,3 @@
+[submodule "ext/renoise-defs"]
+	path = ext/renoise-defs
+	url = https://github.com/renoise/definitions.git
