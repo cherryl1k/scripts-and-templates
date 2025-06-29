@@ -17,3 +17,7 @@ For example:
 ```powershell
 .\audio_to_mp4.ps1 -f cover.png
 ```
+
+
+# reset_audiosrv.bat
+simply asks for admin privileges and then restarts the audio server
