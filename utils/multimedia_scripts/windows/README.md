@@ -21,3 +21,6 @@ For example:
 
 # reset_audiosrv.bat
 simply asks for admin privileges and then restarts the audio server
+
+# wav2flac.bat
+simple bat launcher for a ffmpeg powershell command that takes all .wav files in the current directory and converts them into .flac file
