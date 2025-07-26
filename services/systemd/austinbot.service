@@ -1,0 +1,13 @@
+Description=AustinBot Service
+After=network.target
+
+[Service]
+WorkingDirectory=/home/(YOURUSER)/austinbot
+ExecStart=/home/(YOURUSER)/.local/bin/poetry run tux start --prod
+Restart=always
+User=(YOURUSER)
+Group=(YOURUSER)
+
+[Install]
+WantedBy=multi-user.target
+
